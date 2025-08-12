@@ -2,6 +2,7 @@ import React from 'react';
 
 //components
 import Header from '../../../Components/Home/header';
+import WhoIsLogistico from '../../../Components/Home/whoIsLogistico';
 
 function Home() {
     return (
@@ -38,8 +39,8 @@ function Home() {
                 <rect width="100%" height="100%" fill="url(#highlightGrid)" mask="url(#fadeMask)" opacity="0.6" className="animate-pulse" />
                 <rect width="100%" height="100%" fill="url(#grid)" mask="url(#fadeMask)" />
             </svg>
-
-
+            {/* Conece a logistico */}
+            <WhoIsLogistico></WhoIsLogistico>
         </main>
     )
 }
