@@ -3,6 +3,7 @@ import React from 'react';
 //components
 import Header from '../../../Components/Home/header';
 import WhoIsLogistico from '../../../Components/Home/whoIsLogistico';
+import ToDoLogistico from '../../../Components/Home/toDoLogistico';
 
 function Home() {
     return (
@@ -41,6 +42,10 @@ function Home() {
             </svg>
             {/* Conece a logistico */}
             <WhoIsLogistico></WhoIsLogistico>
+
+            {/* lo que puedes hacer con  logistico */}
+            <ToDoLogistico></ToDoLogistico>
+
         </main>
     )
 }
